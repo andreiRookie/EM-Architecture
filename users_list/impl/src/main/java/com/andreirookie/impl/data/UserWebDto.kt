@@ -2,7 +2,7 @@ package com.andreirookie.impl.data
 
 import com.andreirookie.impl.domain.UserDto
 
-internal data class UserFromWeb(
+internal data class UserWebDto(
     val id: Int,
     val name: String
 ) {

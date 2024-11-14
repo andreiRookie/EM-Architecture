@@ -41,6 +41,8 @@ dependencies {
     implementation(project(":core:impl"))
     implementation(project(":users_list:api"))
     implementation(project(":users_list:impl"))
+    implementation(project(":chat:api"))
+    implementation(project(":chat:impl"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
