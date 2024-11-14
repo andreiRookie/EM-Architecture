@@ -34,6 +34,9 @@ android {
 
 dependencies {
 
+    implementation(project(":core:api"))
+    implementation(project(":users_list:api"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
