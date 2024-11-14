@@ -1,11 +1,11 @@
 package com.andreirookie.impl.presentation
 
-import androidx.lifecycle.ViewModel
+import com.andreirookie.api.presentation.BasePresenter
 import com.andreirookie.impl.domain.usecase.GetUserByIdUseCase
 import com.andreirookie.impl.domain.usecase.GetAllUsersUseCase
 
-internal class UserLIstViewModel(
+internal class UserListPresenter(
     private val getUserByIdUseCase: GetUserByIdUseCase,
     private val getAllUsersUseCase: GetAllUsersUseCase
-) : ViewModel() {
+) : UserListPresenterContract.Presenter, BasePresenter<UserListPresenterContract.UserListView>() {
 }
