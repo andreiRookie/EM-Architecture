@@ -1,7 +1,7 @@
 package com.andreirookie.impl.data
 
 internal data class ChatWebDto(
-    val id: Int,
+    val userId: Int,
     val userName: String,
     val userAvatarImage: String,
     val messages: List<MessageWebDto> = emptyList()

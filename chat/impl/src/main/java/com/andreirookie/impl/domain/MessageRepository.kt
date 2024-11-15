@@ -1,5 +1,7 @@
 package com.andreirookie.impl.domain
 
+import com.andreirookie.api.domain.CoreResult
+
 internal interface MessageRepository {
-    fun getChatById(id: Int): ChatDto
+    fun getChatBy(userId: Int): CoreResult<ChatDto>
 }

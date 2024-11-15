@@ -7,7 +7,7 @@ import com.andreirookie.impl.domain.ReactionDto
 
 internal fun ChatWebDto.toDto(): ChatDto {
     return ChatDto(
-        id = this.id,
+        userId = this.userId,
         userName = this.userName,
         userAvatarImage = this.userAvatarImage,
         messages = this.messages.map { it.toDto() }

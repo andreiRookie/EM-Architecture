@@ -2,7 +2,7 @@ package com.andreirookie.impl.domain
 
 
 internal data class ChatDto(
-    val id: Int,
+    val userId: Int,
     val userName: String,
     val userAvatarImage: String,
     val messages: List<MessageDto> = emptyList()
